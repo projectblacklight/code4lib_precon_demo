@@ -7,6 +7,8 @@
 * Ruby 2.1 or greater
 * Java 7 or greater
 
+[GoRails](https://gorails.com/setup/) provides a tutorial for preparing your machine for Rails development on OS X and Linux.
+
 ## Getting Started
 
 Cloning the project:
