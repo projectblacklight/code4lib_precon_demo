@@ -15,9 +15,11 @@ Cloning the project:
 $ git clone git@github.com:projectblacklight/code4lib_precon_demo.git # preferred, or:
 # $ git clone https://github.com/projectblacklight/code4lib_precon_demo.git # or:
 # download https://github.com/projectblacklight/code4lib_precon_demo/archive/master.zip
+
+$ cd code4lib_precon_demo
 ```
 
-Install the dependencies:
+Installing the dependencies:
 
 ```
 $ bin/setup
