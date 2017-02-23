@@ -20,4 +20,37 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  blacklight:
+    search:
+      fields:
+        search:
+          all_fields: 'All fields'
+          title: 'Title'
+          author: 'Author'
+          subject: 'Subject'
+        sort:
+          relevancy: 'relevance'
+          pub_date: 'publication year'
+          title: 'title'
+          author: 'author'
+        title_display: 'Title'
+        title_vern_display: 'Title'
+        author_display: 'Author'
+        author_vern_display: 'Author'
+        format: 'Format'
+        language_facet: 'Language'
+        published_display: 'Published'
+        published_vern_display: 'Published'
+        lc_callnum_display: 'Call number'
+        subtitle_display: 'Subtitle'
+        subtitle_vern_display: 'Subtitle'
+        url_fulltext_display: 'URL'
+        url_suppl_display: 'More Information'
+        isbn_t: 'ISBN'
+        pub_date: 'Publication Year'
+        subject_topic_facet: 'Topic'
+        lc_1letter_facet: 'Call Number'
+        subject_geo_facet: 'Region'
+        subject_era_facet: 'Era'
+        example_pivot_field: 'Pivot Field'
+        example_query_facet_field: 'Publish Date'
