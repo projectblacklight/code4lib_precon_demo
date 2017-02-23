@@ -6,6 +6,20 @@ include FileUtils
 # path to your application root.
 APP_ROOT = Pathname.new File.expand_path('../../', __FILE__)
 
+def check_java_version
+  if `which java`.empty?
+    puts "You need Java version 8.0 or newer to run Solr."
+    puts "Please install Java and re-run this script."
+    exit 1
+  end
+
+  unless `java -version 2>&1` =~ /^(java|openjdk) version "1.8/
+    puts "You need Java version 8.0 or newer to run Solr."
+    puts "Please upgrade Java and re-run this script."
+    exit 1
+  end
+end
+
 def system!(*args)
   system(*args) || abort("\n== Command #{args} failed ==")
 end
@@ -13,6 +27,9 @@ end
 chdir APP_ROOT do
   # This script is a starting point to setup your application.
   # Add necessary setup steps to this file.
+  puts "== Checking dependencies =="
+
+  check_java_version
 
   puts '== Installing dependencies =='
   system! 'gem install bundler --conservative'
