@@ -49,7 +49,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'mysql2'
 gem 'blacklight', '>= 6.0.0', github: 'projectblacklight/blacklight'
-gem 'rsolr', '>= 2.0.0.alpha'
+gem 'rsolr', '>= 2.0.0.pre3'
 gem 'devise'
 gem 'devise-guests', '~> 0.3'
 gem 'blacklight-marc', '~> 6.0'
