@@ -52,7 +52,7 @@ Indexing data into solr:
 Download our [sample MARC data] (https://github.com/projectblacklight/blacklight-data/archive/master.zip).
 
 ```console
-$ MARC_FILE=../path/to/the/blacklight-data/lc_records.utf8.mrc be rake solr:marc:index
+$ MARC_FILE=../path/to/the/blacklight-data/lc_records.utf8.mrc bundle exec rake solr:marc:index
 ```
 
 ## References
